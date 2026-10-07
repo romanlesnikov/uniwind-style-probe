@@ -1,5 +1,8 @@
 # uniwind-style-probe
 
+[![CI](https://github.com/romanlesnikov/uniwind-style-probe/actions/workflows/ci.yml/badge.svg)](https://github.com/romanlesnikov/uniwind-style-probe/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Checks that your Tailwind **breakpoint** and **platform** variants still carry their condition after [uniwind](https://github.com/uni-stack/uniwind) compiles them for React Native — in about a second, without building the app or picking up a device.
 
 ```
