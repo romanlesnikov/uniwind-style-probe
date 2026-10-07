@@ -1,0 +1,45 @@
+{
+  "name": "uniwind-style-probe",
+  "version": "0.1.0",
+  "description": "Check that Tailwind breakpoint and platform variants survive uniwind's native compilation, without building the app or touching a device.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Roman Lesnikov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanlesnikov/uniwind-style-probe.git"
+  },
+  "keywords": [
+    "uniwind",
+    "tailwindcss",
+    "react-native",
+    "expo",
+    "breakpoints",
+    "responsive"
+  ],
+  "bin": {
+    "uniwind-style-probe": "src/cli.js"
+  },
+  "exports": {
+    ".": "./src/check.js",
+    "./extract": "./src/extract.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "uniwind": ">=1.10"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

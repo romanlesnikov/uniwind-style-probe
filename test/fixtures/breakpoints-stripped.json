@@ -1,0 +1,9 @@
+{
+  "_comment": "Total loss: no sm: class kept its width, so there is no majority left to calibrate against.",
+  "ios": {
+    "flex": [{ "className": "flex", "minWidth": 0 }],
+    "sm:block": [{ "className": "sm:block", "minWidth": 0 }],
+    "sm:hidden": [{ "className": "sm:hidden", "minWidth": 0 }],
+    "sm:flex-row": [{ "className": "sm:flex-row", "minWidth": 0 }]
+  }
+}

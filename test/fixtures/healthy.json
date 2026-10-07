@@ -1,0 +1,22 @@
+{
+  "ios": {
+    "flex": [{ "className": "flex", "minWidth": 0 }],
+    "hidden": [{ "className": "hidden", "minWidth": 0 }],
+    "sm:block": [{ "className": "sm:block", "minWidth": 640 }],
+    "sm:hidden": [{ "className": "sm:hidden", "minWidth": 640 }],
+    "sm:flex-row": [{ "className": "sm:flex-row", "minWidth": 640 }],
+    "lg:flex": [{ "className": "lg:flex", "minWidth": 1024 }],
+    "lg:gap-4": [{ "className": "lg:gap-4", "minWidth": 1024 }],
+    "ios:-mt-12": [{ "className": "ios:-mt-12", "minWidth": 0 }]
+  },
+  "android": {
+    "flex": [{ "className": "flex", "minWidth": 0 }],
+    "hidden": [{ "className": "hidden", "minWidth": 0 }],
+    "sm:block": [{ "className": "sm:block", "minWidth": 640 }],
+    "sm:hidden": [{ "className": "sm:hidden", "minWidth": 640 }],
+    "sm:flex-row": [{ "className": "sm:flex-row", "minWidth": 640 }],
+    "lg:flex": [{ "className": "lg:flex", "minWidth": 1024 }],
+    "lg:gap-4": [{ "className": "lg:gap-4", "minWidth": 1024 }],
+    "android:pt-6": [{ "className": "android:pt-6", "minWidth": 0 }]
+  }
+}
