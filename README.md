@@ -48,8 +48,10 @@ So this is a **regression guard**, not a fix for a live problem. It is worth kee
 
 ## Install
 
+Not on npm — install it straight from here:
+
 ```bash
-npm install --save-dev uniwind-style-probe
+npm install --save-dev github:romanlesnikov/uniwind-style-probe
 ```
 
 It resolves `uniwind` from your project, so install it alongside the project it checks. Node 20.11+.
@@ -57,7 +59,7 @@ It resolves `uniwind` from your project, so install it alongside the project it 
 ## Usage
 
 ```bash
-uniwind-style-probe --css ./global.css
+npx uniwind-style-probe --css ./global.css
 ```
 
 | Option | |
